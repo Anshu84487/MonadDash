@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Hide scrollbars */
+    background-color: #1a0a36; /* Dark purple background for the page */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#game-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    display: block; /* Remove extra space below canvas */
+    border: 2px solid #5a2e9e; /* Optional: border around game canvas */
+}
